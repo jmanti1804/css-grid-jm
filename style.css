@@ -6,3 +6,42 @@ main{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 400px;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info{
+    align-self: center;
+}
+
+.info-title{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.info-subtitle{
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+}
+
+.info-boton{
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    background-color: #e85d04;
+    font-weight: bolder;
+    padding: 12px 24px;
+}
